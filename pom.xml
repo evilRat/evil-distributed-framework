@@ -17,7 +17,7 @@
 	<modules>
 		<module>evil-web</module>
 		<module>evil-framework</module>
-		<module>evil-business</module>
+		<module>evil-api</module>
 	</modules>
 
 	<properties>
