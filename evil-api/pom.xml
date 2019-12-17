@@ -6,7 +6,7 @@
 		<groupId>com.evil</groupId>
 		<artifactId>distributed-framework</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.evil</groupId>
 	<artifactId>evil-api</artifactId>
@@ -18,6 +18,12 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>com.evil</groupId>
+			<artifactId>evil-framework</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 	</dependencies>
 
