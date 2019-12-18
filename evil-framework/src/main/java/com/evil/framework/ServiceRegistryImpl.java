@@ -7,6 +7,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * @Author kongzheng1993
+ */
+
 @Component
 public class ServiceRegistryImpl implements ServiceRegistry, Watcher {
 
