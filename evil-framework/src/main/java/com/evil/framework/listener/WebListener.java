@@ -1,6 +1,6 @@
-package com.evil.api;
+package com.evil.framework.listener;
 
-import com.evil.framework.ServiceRegistry;
+import com.evil.framework.registry.ServiceRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

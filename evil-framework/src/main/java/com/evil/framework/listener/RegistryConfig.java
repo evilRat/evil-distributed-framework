@@ -1,7 +1,7 @@
-package com.evil.api;
+package com.evil.framework.listener;
 
-import com.evil.framework.ServiceRegistry;
-import com.evil.framework.ServiceRegistryImpl;
+import com.evil.framework.registry.ServiceRegistry;
+import com.evil.framework.registry.ServiceRegistryImpl;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

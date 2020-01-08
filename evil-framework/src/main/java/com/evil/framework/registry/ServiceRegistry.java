@@ -1,4 +1,4 @@
-package com.evil.framework;
+package com.evil.framework.registry;
 
 /**
  * 服务注册表

@@ -6,7 +6,7 @@
 		<groupId>com.evil</groupId>
 		<artifactId>distributed-framework</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.evil</groupId>
 	<artifactId>evil-api</artifactId>
@@ -28,7 +28,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>evil-api.jar</finalName>
+		<finalName>evil-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -41,10 +41,12 @@
 				<configuration>
 					<imageName>${project.groupId}/${project.artifactId}:${project.version}</imageName>
 					<dockerDirectory>${project.build.outputDirectory}</dockerDirectory>
+					<!-- 这里是复制 jar 包到 docker 容器指定目录配置，也可以写到 Docokerfile 中 -->
 					<resources>
 						<resource>
+							<targetPath>/</targetPath>
 							<directory>${project.build.directory}</directory>
-							<include>${project.build.finalName}</include>
+							<include>${project.build.finalName}.jar</include>
 						</resource>
 					</resources>
 				</configuration>

@@ -1,4 +1,4 @@
-package com.evil.framework;
+package com.evil.framework.registry;
 
 import org.apache.zookeeper.*;
 import org.slf4j.Logger;
