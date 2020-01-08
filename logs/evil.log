@@ -1,282 +1,116 @@
-DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
-INFO main org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-INFO main com.evil.api.EvilApiApplication - Started EvilApiApplication in 4.131 seconds (JVM running for 5.316)
-DEBUG RMI TCP Connection(2)-127.0.0.1 org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
-DEBUG RMI TCP Connection(2)-127.0.0.1 org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'server.address' in PropertySource 'configurationProperties' with value of type String
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 2ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-INFO http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-DEBUG http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
-DEBUG http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-INFO http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
-DEBUG http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.DispatcherServlet - GET "/hello", parameters={}
-DEBUG http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.evil.api.EvilApiApplication#hello()
-DEBUG http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
-DEBUG http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["Hello"]
-DEBUG http-nio-127.0.0.1-8082-exec-1 org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 2ms
-DEBUG http-nio-127.0.0.1-8082-exec-2 org.springframework.web.servlet.DispatcherServlet - GET "/hello", parameters={}
-DEBUG http-nio-127.0.0.1-8082-exec-2 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.evil.api.EvilApiApplication#hello()
-DEBUG http-nio-127.0.0.1-8082-exec-2 org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
-DEBUG http-nio-127.0.0.1-8082-exec-2 org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["Hello"]
-DEBUG http-nio-127.0.0.1-8082-exec-2 org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG http-nio-127.0.0.1-8082-exec-3 org.springframework.web.servlet.DispatcherServlet - GET "/hello", parameters={}
-DEBUG http-nio-127.0.0.1-8082-exec-3 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.evil.api.EvilApiApplication#hello()
-DEBUG http-nio-127.0.0.1-8082-exec-3 org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
-DEBUG http-nio-127.0.0.1-8082-exec-3 org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["Hello"]
-DEBUG http-nio-127.0.0.1-8082-exec-3 org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 7ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 2ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 2ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 10ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 14ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 3ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 2ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 3ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 3ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 15ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 2ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 6ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 2ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 3ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 1ms
-DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x10018f906110005 after 0ms
-DEBUG SpringContextShutdownHook org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18a70f16, started on Sun Dec 22 18:06:16 CST 2019
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 1ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 1ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x100006078fa0000 after 0ms
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x100006078fa0000, likely server has closed socket, closing socket connection and attempting reconnect
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+WARN main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session 0x100006078fa0000 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+WARN main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session 0x100006078fa0000 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+INFO main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+WARN main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxn - Session 0x100006078fa0000 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+DEBUG main-SendThread(127.0.0.1:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+DEBUG SpringContextShutdownHook org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f200884, started on Sun Jan 05 14:41:12 CST 2020
 DEBUG SpringContextShutdownHook org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
 INFO SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
